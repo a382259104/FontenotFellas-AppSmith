@@ -1,8 +1,24 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "ServiceRep",
+      "isDefault": false
+    },
+    {
+      "id": "CustomersMainPage",
       "isDefault": true
+    },
+    {
+      "id": "Cart",
+      "isDefault": false
+    },
+    {
+      "id": "UpdateCustomer",
+      "isDefault": false
+    },
+    {
+      "id": "UpdateRequest",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +31,9 @@
   },
   "color": "#FFEBFB",
   "icon": "burger",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
