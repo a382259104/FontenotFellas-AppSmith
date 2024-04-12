@@ -25,7 +25,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "AddItem",
+    "text": "EditCart",
     "isDisabled": false,
     "key": "idr75q46oi",
     "isDeprecated": false,
