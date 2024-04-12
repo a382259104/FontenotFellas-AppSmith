@@ -2,11 +2,11 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{UpdateCus.run()}}",
-    "topRow": 23,
+    "onSubmit": "{{PUT.run().then(() => {\n  getCustomer.run();\n});}}",
+    "topRow": 12,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 19,
+    "leftColumn": 22,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -14,6 +14,10 @@
         {"key": "submitButtonStyles.borderRadius"},
         {"key": "resetButtonStyles.buttonColor"},
         {"key": "resetButtonStyles.borderRadius"},
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.defaultValue"},
+        {"key": "schema.__root_schema__.borderRadius"},
+        {"key": "schema.__root_schema__.cellBorderRadius"},
         {"key": "schema.__root_schema__.children.Address.defaultValue"},
         {"key": "schema.__root_schema__.children.Address.accentColor"},
         {"key": "schema.__root_schema__.children.Address.borderRadius"},
@@ -28,11 +32,7 @@
         {"key": "schema.__root_schema__.children.PassWord.borderRadius"},
         {"key": "schema.__root_schema__.children.UserName.defaultValue"},
         {"key": "schema.__root_schema__.children.UserName.accentColor"},
-        {"key": "schema.__root_schema__.children.UserName.borderRadius"},
-        {"key": "schema.__root_schema__.defaultValue"},
-        {"key": "schema.__root_schema__.borderRadius"},
-        {"key": "schema.__root_schema__.cellBorderRadius"},
-        {"key": "sourceData"}
+        {"key": "schema.__root_schema__.children.UserName.borderRadius"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -131,7 +131,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 78,
+    "originalBottomRow": 60,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -167,8 +167,8 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": "aayush@gmail.com",
+                "fieldType": "Email Input"
             },
             "UserName": {
                 "labelTextSize": "0.875rem",
@@ -189,7 +189,7 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": false,
-                "sourceData": "",
+                "sourceData": "Aayush Bagga",
                 "fieldType": "Text Input"
             },
             "Address": {
@@ -211,7 +211,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": "",
+                "sourceData": "360 Huntington Ave, Boston, MA 02115",
                 "fieldType": "Text Input"
             },
             "CustomerID": {
@@ -224,7 +224,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "number",
                 "accessor": "CustomerID",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Customer ID",
                 "originalIdentifier": "CustomerID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
@@ -233,7 +233,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 4,
+                "sourceData": 55,
                 "fieldType": "Number Input"
             },
             "PassWord": {
@@ -255,24 +255,25 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": "",
+                "sourceData": "password",
                 "fieldType": "Text Input"
             }
         },
         "position": -1,
         "isDisabled": false,
         "sourceData": {
-            "Email": "",
-            "UserName": "",
-            "Address": "",
-            "CustomerID": "",
-            "PassWord": ""
+            "business_phone": "(123)555-0100",
+            "last_name": "Bedecs",
+            "company": "Company A",
+            "id": 1,
+            "first_name": "Anna",
+            "job_title": "Owner"
         },
         "cellBoxShadow": "none",
         "fieldType": "Object"
     }},
     "needsErrorInfo": false,
-    "mobileBottomRow": 53,
+    "mobileBottomRow": 90,
     "widgetName": "JSONForm1",
     "submitButtonStyles": {
         "boxShadow": "none",
@@ -282,31 +283,31 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 78,
+    "bottomRow": 60,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Form",
     "hideCard": false,
-    "mobileRightColumn": 55,
-    "parentColumnSpace": 16.9375,
+    "mobileRightColumn": 24,
+    "parentColumnSpace": 10.015625,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
     "sourceData": "{{Table1.selectedRow}}",
     "resetButtonLabel": "Reset",
-    "key": "8u7um0mi19",
+    "key": "9gz9o2hfh0",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 39,
-    "widgetId": "m63gys4u9k",
+    "rightColumn": 46,
+    "widgetId": "h5dnsnvz6x",
     "minWidth": 450,
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 12,
+    "mobileTopRow": 49,
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 23,
-    "mobileLeftColumn": 30,
+    "originalTopRow": 12,
+    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }

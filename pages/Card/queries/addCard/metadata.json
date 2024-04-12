@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "UpdateCus",
+    "name": "addCard",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/customers"
+        "url": "web:4000/c/customers/card"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "UpdateCustomer",
+    "pageId": "Card",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -32,7 +32,7 @@
       "queryParameters": [],
       "body": "",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -58,9 +58,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-12T19:26:41Z"
+    "createdAt": "2024-04-12T21:07:15Z"
   },
-  "id": "UpdateCustomer_UpdateCus",
+  "id": "Card_addCard",
   "deleted": false,
-  "gitSyncId": "6613f84393b4346867320df9_66198af1bb2c0a482efe1fb6"
+  "gitSyncId": "6613f84393b4346867320df9_6619a283df5da51a5ab733a2"
 }

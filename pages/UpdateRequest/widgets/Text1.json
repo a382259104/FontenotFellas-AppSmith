@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 26,
-    "bottomRow": 30,
+    "topRow": 7,
+    "bottomRow": 11,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 16.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 4,
+    "leftColumn": 5,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Add comment",
     "key": "kk674in66u",
     "isDeprecated": false,
-    "rightColumn": 11,
+    "rightColumn": 12,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "8c6iamihag",
@@ -49,9 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 16,
     "responsiveBehavior": "fill",
+    "originalTopRow": 51,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 5,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 55,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

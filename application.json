@@ -13,11 +13,15 @@
       "isDefault": false
     },
     {
+      "id": "UpdateRequest",
+      "isDefault": false
+    },
+    {
       "id": "UpdateCustomer",
       "isDefault": false
     },
     {
-      "id": "UpdateRequest",
+      "id": "Card",
       "isDefault": false
     }
   ],

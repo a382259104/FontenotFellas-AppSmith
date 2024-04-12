@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "UpdateCustomer",
-    "slug": "updatecustomer",
+    "name": "Card",
+    "slug": "card",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1230,
+          "bottomRow": 950,
           "containerStyle": "none",
           "snapRows": 86,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "UpdateCustomer_getCustomer",
-              "name": "getCustomer",
+              "id": "Card_getCard",
+              "name": "getCard",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -41,7 +41,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "UpdateCustomer",
+        "id": "Card",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -52,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6613f84393b4346867320df9_66199dacdf5da51a5ab73393"
+  "gitSyncId": "6613f84393b4346867320df9_6619a1a8df5da51a5ab7339e"
 }
