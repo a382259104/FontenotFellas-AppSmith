@@ -52,7 +52,7 @@
     "rightColumn": 39,
     "widgetId": "kvj1nl4isw",
     "minWidth": 450,
-    "label": "Label",
+    "label": "ChooseRequest",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

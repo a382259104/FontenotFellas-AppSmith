@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1130,
+          "bottomRow": 920,
           "containerStyle": "none",
           "snapRows": 86,
           "parentRowSpace": 1,
@@ -28,19 +28,23 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "ServiceRep_GetCustomers",
-              "name": "GetCustomers",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "ServiceRep_getRequest",
               "name": "getRequest",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "ServiceRep_getResponse",
+              "name": "getResponse",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " Input1.text "
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
