@@ -15,6 +15,7 @@
     "labelStyle": "",
     "inputType": "TEXT",
     "isDisabled": false,
+    "validation": "/",
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",

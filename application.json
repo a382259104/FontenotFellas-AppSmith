@@ -31,6 +31,22 @@
     {
       "id": "PlaceOrder",
       "isDefault": false
+    },
+    {
+      "id": "Small_Business_Owner",
+      "isDefault": false
+    },
+    {
+      "id": "ProductsManagement",
+      "isDefault": false
+    },
+    {
+      "id": "BankAccount",
+      "isDefault": false
+    },
+    {
+      "id": "WelcomePage",
+      "isDefault": false
     }
   ],
   "viewMode": false,
