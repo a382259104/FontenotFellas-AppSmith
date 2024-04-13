@@ -6,7 +6,7 @@
     },
     {
       "id": "CustomersMainPage",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Cart",
@@ -46,7 +46,7 @@
     },
     {
       "id": "WelcomePage",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "viewMode": false,
