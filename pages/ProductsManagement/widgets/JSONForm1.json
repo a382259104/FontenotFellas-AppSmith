@@ -137,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 92,
+    "originalBottomRow": 114,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -194,7 +194,7 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 3,
-                "isDisabled": false,
+                "isDisabled": true,
                 "sourceData": "Ginger - Crystalized",
                 "fieldType": "Text Input"
             },
@@ -238,7 +238,7 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 6,
-                "isDisabled": false,
+                "isDisabled": true,
                 "sourceData": 4,
                 "fieldType": "Number Input"
             },
@@ -260,7 +260,7 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 2,
-                "isDisabled": false,
+                "isDisabled": true,
                 "sourceData": 3,
                 "fieldType": "Number Input"
             },
