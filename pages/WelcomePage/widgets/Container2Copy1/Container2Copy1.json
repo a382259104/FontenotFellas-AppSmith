@@ -21,11 +21,9 @@
     "mobileRightColumn": 16,
     "animateLoading": true,
     "parentColumnSpace": 16.9375,
+    "dynamicTriggerPathList": [],
     "leftColumn": 15,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "dynamicBindingPathList": [{"key": "boxShadow"}],
     "children": [{
         "needsErrorInfo": false,
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -70,7 +68,7 @@
     "borderWidth": "1",
     "flexVerticalAlignment": "stretch",
     "key": "enyj9au8zm",
-    "backgroundColor": "#FFFFFF",
+    "backgroundColor": "#dbeafe",
     "isDeprecated": false,
     "rightColumn": 47,
     "dynamicHeight": "AUTO_HEIGHT",
@@ -86,7 +84,7 @@
     "mobileTopRow": 40,
     "responsiveBehavior": "fill",
     "originalTopRow": 33,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 43,
