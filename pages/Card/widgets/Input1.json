@@ -53,7 +53,7 @@
     "rightColumn": 39,
     "widgetId": "wtq3uwmw7o",
     "minWidth": 450,
-    "label": "Choose the card",
+    "label": "Choose the card owner",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

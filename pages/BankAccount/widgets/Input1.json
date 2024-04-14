@@ -52,7 +52,7 @@
     "rightColumn": 27,
     "widgetId": "ycnya0rjx1",
     "minWidth": 450,
-    "label": "Choose Account",
+    "label": "Choose Account owner",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

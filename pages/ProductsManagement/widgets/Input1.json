@@ -52,7 +52,7 @@
     "rightColumn": 24,
     "widgetId": "4p81tkjsim",
     "minWidth": 450,
-    "label": "Choose the seller",
+    "label": "Choose the products by their seller",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
