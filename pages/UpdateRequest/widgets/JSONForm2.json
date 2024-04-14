@@ -190,7 +190,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 0,
+                "position": 1,
                 "isDisabled": false,
                 "sourceData": "Painting service request for unique mural",
                 "fieldType": "Text Input"
@@ -212,7 +212,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 1,
+                "position": 2,
                 "isDisabled": false,
                 "sourceData": "Sun, 07 Apr 2024 10:42:51 GMT",
                 "fieldType": "Text Input"
@@ -256,7 +256,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 2,
+                "position": 3,
                 "isDisabled": false,
                 "sourceData": 21,
                 "fieldType": "Number Input"
@@ -272,13 +272,13 @@
                 "dataType": "number",
                 "accessor": "ServiceID",
                 "isVisible": true,
-                "label": "Service ID",
+                "label": "Service ID ",
                 "originalIdentifier": "ServiceID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm2.sourceData, JSONForm2.formData, JSONForm2.fieldState)}}",
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 3,
+                "position": 0,
                 "isDisabled": false,
                 "sourceData": 3,
                 "fieldType": "Number Input"

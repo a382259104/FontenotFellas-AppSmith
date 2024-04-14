@@ -52,7 +52,7 @@
     "rightColumn": 25,
     "widgetId": "bnlnkqgth3",
     "minWidth": 450,
-    "label": "ViewOrder",
+    "label": "View Order by CustomerID",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

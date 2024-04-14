@@ -80,7 +80,7 @@
     "hideCard": false,
     "mobileRightColumn": 55,
     "parentColumnSpace": 16.9375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "Status": {
@@ -254,6 +254,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{getOrderDetail.run()}}",
     "key": "4fenqpkw04",
     "canFreezeColumn": true,
     "isDeprecated": false,
