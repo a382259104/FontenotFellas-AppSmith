@@ -20,7 +20,7 @@
         {"key": "primaryColumns.Status.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 5,
+    "leftColumn": 1,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -258,7 +258,7 @@
     "key": "4fenqpkw04",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 43,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "rp30sazw5i",
     "minWidth": 450,
