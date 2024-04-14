@@ -43,7 +43,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                " Input2.text "
+                " Table1.selectedRow.OrderID "
               ],
               "timeoutInMillisecond": 10000
             }
