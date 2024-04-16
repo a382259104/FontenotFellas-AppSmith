@@ -10,9 +10,7 @@
     "dynamicBindingPathList": [
         {"key": "boxShadow"},
         {"key": "submitButtonStyles.buttonColor"},
-        {"key": "submitButtonStyles.borderRadius"},
         {"key": "resetButtonStyles.buttonColor"},
-        {"key": "resetButtonStyles.borderRadius"},
         {"key": "sourceData"},
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
@@ -36,7 +34,7 @@
     "autoGenerateForm": true,
     "resetButtonStyles": {
         "boxShadow": "none",
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "borderRadius": "1.5rem",
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "SECONDARY"
     },
@@ -253,7 +251,7 @@
     "widgetName": "JSONForm1",
     "submitButtonStyles": {
         "boxShadow": "none",
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "borderRadius": "1.5rem",
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
