@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Small_Business_Owner",
+    "text": "SmallBusinessOwner",
     "key": "vfpnl7y3xn",
     "isDeprecated": false,
     "rightColumn": 32,
@@ -53,7 +53,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 4,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 7,
+    "originalBottomRow": 6,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
