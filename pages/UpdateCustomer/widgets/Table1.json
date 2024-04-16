@@ -58,7 +58,7 @@
         }
     },
     "borderRadius": "1.5rem",
-    "columnUpdatedAt": 1712582522668,
+    "columnUpdatedAt": 1713299817645,
     "originalBottomRow": 136,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -202,7 +202,7 @@
             "allowCellWrapping": false,
             "index": 1,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "CustomerID",
             "fontStyle": "",
             "textColor": "",
