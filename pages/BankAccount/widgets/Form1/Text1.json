@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 7,
+    "bottomRow": 5,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 25.5,
@@ -29,7 +29,7 @@
     "text": "AddAccount",
     "key": "k0lyy0z46s",
     "isDeprecated": false,
-    "rightColumn": 36,
+    "rightColumn": 53,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "ncg4h9cvhz",
@@ -51,7 +51,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1.5,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 5,
+    "originalBottomRow": 7,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

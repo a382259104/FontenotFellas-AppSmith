@@ -13,8 +13,8 @@
         "click",
         "submit"
     ],
-    "topRow": 41,
-    "bottomRow": 45,
+    "topRow": 39,
+    "bottomRow": 43,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 62,
@@ -39,11 +39,11 @@
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
-    "originalTopRow": 40,
+    "originalTopRow": 41,
     "disabledWhenInvalid": true,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 46,
-    "originalBottomRow": 44,
+    "originalBottomRow": 45,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }
