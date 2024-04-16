@@ -14,7 +14,6 @@
         {"key": "selectedItemView"},
         {"key": "triggeredItemView"},
         {"key": "accentColor"},
-        {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "listData"},
         {"key": "primaryKeys"}
@@ -76,7 +75,7 @@
     "hasMetaWidgets": true,
     "isLoading": false,
     "mainCanvasId": "lxzcwldt7u",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "additionalStaticProps": [
         "level",
         "levelData",

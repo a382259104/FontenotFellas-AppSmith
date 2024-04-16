@@ -4,15 +4,15 @@
     "mobileBottomRow": 6,
     "widgetName": "IconButton1",
     "onClick": "{{navigateTo('CustomersMainPage', {}, 'SAME_WINDOW');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#1d4ed8",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
     "searchTags": [
         "click",
         "submit"
     ],
-    "topRow": 1,
-    "bottomRow": 5,
+    "topRow": 2,
+    "bottomRow": 6,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
@@ -21,10 +21,7 @@
     "parentColumnSpace": 8.15625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 54,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [],
     "isDisabled": false,
     "key": "y51weu7mzi",
     "isDeprecated": false,
@@ -40,7 +37,7 @@
     "isLoading": false,
     "mobileTopRow": 2,
     "responsiveBehavior": "hug",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "mobileLeftColumn": 54,
     "buttonVariant": "PRIMARY"
 }

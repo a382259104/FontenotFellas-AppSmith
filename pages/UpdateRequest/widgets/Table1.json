@@ -3,14 +3,13 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 64,
+    "topRow": 65,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.Description.computedValue"},
@@ -59,9 +58,9 @@
             "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "columnUpdatedAt": 1712955606652,
-    "originalBottomRow": 92,
+    "originalBottomRow": 93,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 101,
@@ -77,7 +76,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 92,
+    "bottomRow": 93,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -117,7 +116,7 @@
             "sticky": "",
             "originalId": "Type",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "Description": {
@@ -151,7 +150,7 @@
             "sticky": "",
             "originalId": "Description",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "EndTime": {
@@ -185,7 +184,7 @@
             "sticky": "",
             "originalId": "EndTime",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "StartTime": {
@@ -219,7 +218,7 @@
             "sticky": "",
             "originalId": "StartTime",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "OrderID": {
@@ -253,7 +252,7 @@
             "sticky": "",
             "originalId": "OrderID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "ServiceID": {
@@ -287,7 +286,7 @@
             "sticky": "",
             "originalId": "ServiceID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         }
     },
@@ -307,8 +306,9 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 64,
+    "originalTopRow": 65,
     "mobileLeftColumn": 16,
     "isVisiblePagination": true,
+    "cellBackground": "#dbeafe",
     "verticalAlignment": "CENTER"
 }

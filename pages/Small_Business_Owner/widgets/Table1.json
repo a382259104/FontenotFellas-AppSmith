@@ -114,7 +114,7 @@
             "sticky": "",
             "originalId": "Email",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "UserName": {
@@ -148,7 +148,7 @@
             "sticky": "",
             "originalId": "UserName",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "BusinessID": {
@@ -182,7 +182,7 @@
             "sticky": "",
             "originalId": "BusinessID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "PassWord": {
@@ -216,7 +216,7 @@
             "sticky": "",
             "originalId": "PassWord",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "Profile": {
@@ -250,7 +250,7 @@
             "sticky": "",
             "originalId": "Profile",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         }
     },
@@ -272,5 +272,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 16,
     "isVisiblePagination": true,
+    "cellBackground": "#dbeafe",
     "verticalAlignment": "CENTER"
 }

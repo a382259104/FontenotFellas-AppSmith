@@ -8,7 +8,6 @@
     "animateLoading": true,
     "leftColumn": 43,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
@@ -130,7 +129,7 @@
         }
     },
     "disabledWhenInvalid": true,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "originalBottomRow": 91,
     "useSourceData": false,
     "schema": {"__root_schema__": {
@@ -294,7 +293,7 @@
     "sourceData": "{{Table3.selectedRow}}",
     "resetButtonLabel": "Reset",
     "key": "otx6rymi76",
-    "backgroundColor": "#fff",
+    "backgroundColor": "#dbeafe",
     "isDeprecated": false,
     "rightColumn": 63,
     "widgetId": "mxu0uxnceb",

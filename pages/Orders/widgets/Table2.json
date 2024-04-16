@@ -3,14 +3,13 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 51,
+    "topRow": 43,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.BusinessID.computedValue"},
@@ -23,7 +22,7 @@
         {"key": "primaryColumns.UnitsSold.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 5,
+    "leftColumn": 1,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -61,7 +60,7 @@
             "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "columnUpdatedAt": 1713032588057,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -80,7 +79,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 79,
+    "bottomRow": 71,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -120,7 +119,7 @@
             "sticky": "",
             "originalId": "OnSale",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "ProductName": {
@@ -154,7 +153,7 @@
             "sticky": "",
             "originalId": "ProductName",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "Price": {
@@ -188,7 +187,7 @@
             "sticky": "",
             "originalId": "Price",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "UnitsSold": {
@@ -222,7 +221,7 @@
             "sticky": "",
             "originalId": "UnitsSold",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "ProductID": {
@@ -256,7 +255,7 @@
             "sticky": "",
             "originalId": "ProductID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "ProductionDescription": {
@@ -290,7 +289,7 @@
             "sticky": "",
             "originalId": "ProductionDescription",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "BusinessID": {
@@ -324,7 +323,7 @@
             "sticky": "",
             "originalId": "BusinessID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "UnitsInStock": {
@@ -358,14 +357,14 @@
             "sticky": "",
             "originalId": "UnitsInStock",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         }
     },
     "key": "4fenqpkw04",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "8mqml0et4c",
     "minWidth": 450,
@@ -380,5 +379,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 6,
     "isVisiblePagination": true,
+    "cellBackground": "#dbeafe",
     "verticalAlignment": "CENTER"
 }

@@ -10,7 +10,6 @@
     "animateLoading": true,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.AccountNumber.computedValue"},
@@ -57,7 +56,7 @@
             "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "columnUpdatedAt": 1713043818409,
     "originalBottomRow": 95,
     "defaultSelectedRowIndices": [0],
@@ -111,6 +110,7 @@
             "sticky": "",
             "originalId": "BankName",
             "currencyCode": "USD",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "OwnerID": {
@@ -142,6 +142,7 @@
             "sticky": "",
             "originalId": "OwnerID",
             "currencyCode": "USD",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "BillAddress": {
@@ -173,6 +174,7 @@
             "sticky": "",
             "originalId": "BillAddress",
             "currencyCode": "USD",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "AccountNumber": {
@@ -204,6 +206,7 @@
             "sticky": "",
             "originalId": "AccountNumber",
             "currencyCode": "USD",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         }
     },
@@ -226,5 +229,6 @@
     "originalTopRow": 66,
     "mobileLeftColumn": 15,
     "isVisiblePagination": true,
+    "cellBackground": "#dbeafe",
     "verticalAlignment": "CENTER"
 }
