@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 33,
-    "bottomRow": 43,
+    "topRow": 36,
+    "bottomRow": 46,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -83,10 +83,10 @@
     "isLoading": false,
     "mobileTopRow": 40,
     "responsiveBehavior": "fill",
-    "originalTopRow": 33,
+    "originalTopRow": 36,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 43,
+    "originalBottomRow": 46,
     "minDynamicHeight": 10
 }
