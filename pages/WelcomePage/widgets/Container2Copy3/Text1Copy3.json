@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "orders",
+    "text": "Orders",
     "key": "vfpnl7y3xn",
     "isDeprecated": false,
     "rightColumn": 32,
