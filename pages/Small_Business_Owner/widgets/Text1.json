@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Competators!!",
+    "text": "Competitors!!",
     "key": "exuw6pv60o",
     "isDeprecated": false,
     "rightColumn": 22,

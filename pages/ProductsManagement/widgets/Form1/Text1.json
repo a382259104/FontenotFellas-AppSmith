@@ -29,7 +29,7 @@
     "text": "AddProduct",
     "key": "k0lyy0z46s",
     "isDeprecated": false,
-    "rightColumn": 36,
+    "rightColumn": 40,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "r1f4kew84b",
@@ -47,11 +47,11 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
-    "originalTopRow": 1,
+    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1.5,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 7,
+    "originalBottomRow": 6,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
