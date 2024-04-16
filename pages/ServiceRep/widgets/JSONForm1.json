@@ -210,7 +210,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 3,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "RepID": {
@@ -223,7 +223,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "number",
                 "accessor": "RepID",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Rep ID",
                 "originalIdentifier": "RepID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
@@ -232,7 +232,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 30,
+                "sourceData": 4,
                 "fieldType": "Number Input"
             },
             "ServiceID": {
@@ -245,7 +245,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "number",
                 "accessor": "ServiceID",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Service ID",
                 "originalIdentifier": "ServiceID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
@@ -254,7 +254,7 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": 3,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             }
         },
@@ -281,7 +281,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 91,
+    "bottomRow": 105,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "DeleteResponse",
