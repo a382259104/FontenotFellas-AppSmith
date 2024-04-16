@@ -23,8 +23,8 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 41,
     "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "buttonColor"}
     ],
     "text": "ManageTheBankAccount",
     "isDisabled": false,

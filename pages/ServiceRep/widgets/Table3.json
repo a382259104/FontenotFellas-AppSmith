@@ -10,7 +10,6 @@
     "animateLoading": true,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.Contents.computedValue"},
@@ -58,7 +57,7 @@
             "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "columnUpdatedAt": 1713031588539,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -114,7 +113,7 @@
             "sticky": "",
             "originalId": "Type",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "Contents": {
@@ -148,7 +147,7 @@
             "sticky": "",
             "originalId": "Contents",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "ResponseID": {
@@ -182,7 +181,7 @@
             "sticky": "",
             "originalId": "ResponseID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "RepID": {
@@ -216,7 +215,7 @@
             "sticky": "",
             "originalId": "RepID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "ServiceID": {
@@ -250,7 +249,7 @@
             "sticky": "",
             "originalId": "ServiceID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         }
     },
@@ -272,5 +271,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 8,
     "isVisiblePagination": true,
+    "cellBackground": "#dbeafe",
     "verticalAlignment": "CENTER"
 }

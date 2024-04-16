@@ -8,7 +8,6 @@
     "animateLoading": true,
     "leftColumn": 21,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
@@ -130,7 +129,7 @@
         }
     },
     "disabledWhenInvalid": true,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "originalBottomRow": 68,
     "useSourceData": false,
     "schema": {"__root_schema__": {
@@ -284,7 +283,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 68,
+    "bottomRow": 69,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Form",
@@ -299,7 +298,7 @@
     "sourceData": "{{Table1.selectedRow}}",
     "resetButtonLabel": "Reset",
     "key": "9gz9o2hfh0",
-    "backgroundColor": "#fff",
+    "backgroundColor": "#dbeafe",
     "isDeprecated": false,
     "rightColumn": 45,
     "widgetId": "h5dnsnvz6x",

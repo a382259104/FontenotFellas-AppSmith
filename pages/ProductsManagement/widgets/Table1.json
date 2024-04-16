@@ -118,7 +118,7 @@
             "sticky": "",
             "originalId": "OnSale",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "ProductName": {
@@ -152,7 +152,7 @@
             "sticky": "",
             "originalId": "ProductName",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "Price": {
@@ -186,7 +186,7 @@
             "sticky": "",
             "originalId": "Price",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "UnitsSold": {
@@ -220,7 +220,7 @@
             "sticky": "",
             "originalId": "UnitsSold",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "ProductID": {
@@ -254,7 +254,7 @@
             "sticky": "",
             "originalId": "ProductID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "ProductionDescription": {
@@ -288,7 +288,7 @@
             "sticky": "",
             "originalId": "ProductionDescription",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "UnitsInStock": {
@@ -322,7 +322,7 @@
             "sticky": "",
             "originalId": "UnitsInStock",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         }
     },
@@ -344,5 +344,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 4,
     "isVisiblePagination": true,
+    "cellBackground": "#dbeafe",
     "verticalAlignment": "CENTER"
 }

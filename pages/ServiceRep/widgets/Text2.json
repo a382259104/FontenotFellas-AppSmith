@@ -24,7 +24,8 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "backgroundColor"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -32,6 +33,7 @@
     "key": "ws44bcba5u",
     "isDeprecated": false,
     "rightColumn": 24,
+    "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "lv1yw5fyvn",

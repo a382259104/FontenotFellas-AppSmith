@@ -3,14 +3,13 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 68,
+    "topRow": 73,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.Address.computedValue"},
@@ -20,7 +19,7 @@
         {"key": "primaryColumns.UserName.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 30,
+    "leftColumn": 5,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -58,7 +57,7 @@
             "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "columnUpdatedAt": 1712582522668,
     "originalBottomRow": 131,
     "defaultSelectedRowIndices": [0],
@@ -75,7 +74,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 131,
+    "bottomRow": 136,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -115,7 +114,7 @@
             "sticky": "",
             "originalId": "Email",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "UserName": {
@@ -149,7 +148,7 @@
             "sticky": "",
             "originalId": "UserName",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "Address": {
@@ -183,7 +182,7 @@
             "sticky": "",
             "originalId": "Address",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "CustomerID": {
@@ -217,7 +216,7 @@
             "sticky": "",
             "originalId": "CustomerID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         },
         "PassWord": {
@@ -251,14 +250,14 @@
             "sticky": "",
             "originalId": "PassWord",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#dbeafe",
             "verticalAlignment": "CENTER"
         }
     },
     "key": "l8t3tgtuva",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 56,
+    "rightColumn": 61,
     "textSize": "0.875rem",
     "widgetId": "0igsja8psq",
     "minWidth": 450,
@@ -274,5 +273,6 @@
     "originalTopRow": 68,
     "mobileLeftColumn": 12,
     "isVisiblePagination": true,
+    "cellBackground": "#dbeafe",
     "verticalAlignment": "CENTER"
 }
