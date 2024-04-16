@@ -218,7 +218,7 @@
                 "identifier": "CustomerID",
                 "boxShadow": "none",
                 "isRequired": false,
-                "onTextChanged": "{{showAlert('do not change it', '');}}",
+                "onTextChanged": "",
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.CustomerID))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
